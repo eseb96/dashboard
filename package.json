@@ -1,5 +1,5 @@
 {
-  "name": "dashboard",
+  "name": "learn-starter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,10 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
-    "bootstrap": "^5.0.1",
-    "next": "10.2.3",
-    "react": "17.0.2",
-    "react-bootstrap": "^1.6.1",
-    "react-dom": "17.0.2"
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "mongoose": "^5.12.11",
+    "next": "^10.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-axios": "^2.0.5",
+    "react-bootstrap": "^1.6.0",
+    "react-dom": "17.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3"
   }
 }
