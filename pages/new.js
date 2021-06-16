@@ -65,7 +65,7 @@ const NewNote = () => {
     }
 
     return(
-        <div className='form-container'>\
+        <div className='form-container'>
         <h1>Create Note</h1>
         <div>{
             isSubmitting

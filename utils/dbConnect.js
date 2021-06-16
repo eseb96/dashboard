@@ -5,7 +5,7 @@ async function dbConnect(){
     if (connection.isConnected){
         return;
     }
-    const db = await mongoose.connect("mongodb+srv://user:1234@cluster0.fhlei.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    const db = await mongoose.connect("",
         {
             useNewUrlParser: true,
             useUnifiedTopology: true,
